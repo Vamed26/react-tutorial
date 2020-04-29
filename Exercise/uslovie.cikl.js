@@ -38,21 +38,22 @@
 //      randomString+=alphabet[Math.floor(Math.random()*alphabet.length)];
 //  }
 //  console.log (randomString);
-var input = "javascript is awesome";
-var output = "";
-for (var i = 0; i < input.length; i++) {
-    output += input[i];
-    if (input[i] === "a") {
-        output = output.replace('a', 4);
-    }
-    if (input[i] === "e") {
-        output = output.replace('e', 3);
-    }
-    if (input[i] === "i") {
-        output = output.replace('i', 1);
-    }
-    if (input[i] === "o") {
-        output = output.replace('o', 0);
-    }
+// ОЧЕНЬ СЛОЖНОЕ ЗАДАНИЕ
+// var input = "javascript is awesome";
+// var output = "";
+// for (var i = 0; i < input.length; i++) {
+//     output += input[i];
+//     if (input[i] === "a") {
+//         output = output.replace('a', 4);
+//     }
+//     if (input[i] === "e") {
+//         output = output.replace('e', 3);
+//     }
+//     if (input[i] === "i") {
+//         output = output.replace('i', 1);
+//     }
+//     if (input[i] === "o") {
+//         output = output.replace('o', 0);
+//     }
     
-} console.log(output);
+// } console.log(output);
